@@ -244,7 +244,7 @@ disp(' ');
         while fl2 == 0
         eps = input('Calculation accuracy [0.001; 1]: ');
             if (eps <= 0) || (eps > 1)
-               disp('The Calculation accuracy is set incorrectly! It must lie in the range [0.001; 1].');
+               disp('The calculation accuracy is set incorrectly! It must lie in the range [0.001; 1].');
                disp(' ');
             else fl2 = 1;
             end;
