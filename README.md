@@ -36,8 +36,8 @@ Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
 393   mpc.detJ = detJ;
 ```
 
-## Test simulations using IEEE14
-To run the simulation for the [IEEE14](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/) test grid run 
+## Test simulations using IEEE-14
+To run the simulation for the [IEEE-14](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/) test grid run 
 ```
 IEEE-14.m
 ```
