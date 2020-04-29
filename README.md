@@ -10,17 +10,16 @@ The aim of this project is the automatic load adding in the node and search of e
  
 1. newtonpf.m: added the calculation of jacobian of power system.
 
+>1 function [V, converged, i, ***detJ***] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
+>...
+>106    J = [   j11 j12;
+>107            j21 j22;    ];
+>108        
+>109    ***detJ = det(J);***
 
-1 function [V, converged, i, ***detJ***] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
-...
-106    J = [   j11 j12;
-107            j21 j22;    ];
-108        
-109    ***detJ = det(J);***
-```
 2. runpf.m: added the value of jacobian of power system.
 
-```
+
 248    if mpopt.pf.v_cartesian               %% power, cartesian
 249          newtonpf_fcn = @newtonpf_S_cart;
 250       else                                  %% default - power, polar
@@ -34,7 +33,6 @@ The aim of this project is the automatic load adding in the node and search of e
 391   mpc.success = success;
 392   mpc.iterations = its;
 393   ***mpc.detJ = detJ;***
-
 
 ## Test simulations using IEEE14
 To run the simulation for the [IEEE14](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/) test grid run 
