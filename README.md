@@ -8,16 +8,16 @@ The aim of this project is the automatic load adding in the node and search of e
 ## Changes to MATPOWER library files
  Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
  
-1. newtonpf.m: added the calculation of jacobian of power system.
+1. newtonpf.m: added the calculation of Jacobian of power system.
 
->1 function [V, converged, i, ***detJ***] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
->...
->106    J = [   j11 j12;
->107            j21 j22;    ];
->108        
->109    ***detJ = det(J);***
+1 function [V, converged, i, ***detJ***] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
+...
+106    J = [   j11 j12;
+107            j21 j22;    ];
+108        
+109    ***detJ = det(J);***
 
-2. runpf.m: added the value of jacobian of power system.
+2. runpf.m: added the value of Jacobian of power system.
 
 
 248    if mpopt.pf.v_cartesian               %% power, cartesian
