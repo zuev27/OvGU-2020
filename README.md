@@ -11,7 +11,7 @@ Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
 1. newtonpf.m: added the calculation of Jacobian of power system.
 
 ```
-1 function [V, converged, i, ***detJ***] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
+1 function [V, converged, i, detJ] = newtonpf(Ybus, Sbus, V0, ref, pv, pq, mpopt)
 ...
 106    J = [   j11 j12;
 107            j21 j22;    ];
