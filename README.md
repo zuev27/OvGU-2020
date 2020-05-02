@@ -42,9 +42,9 @@ To run the simulation for the [IEEE14](https://electricgrids.engr.tamu.edu/elect
 IEEE14.m
 ```
 from the MATLAB prompt. Here, the user can select a number of parameters:
- - load node to investigate (default indicated in the command window after running the program),
- - accuracy of calculation (default [0.001;1]),
- - power increment (default [1;100] MW).
+ - load node to investigate (the user can select any node that is displayed in the command window of MATLAB),
+ - accuracy of calculation (default the value 0.001 for greater accuracy of calculation),
+ - power increment (default 5 MW also for greater accuracy of calculation).
 
 After a successful calculation the graphs of the Jacobian determinant |J| and its second derivative |J''| are shown. 
 
