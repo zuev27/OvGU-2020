@@ -29,7 +29,6 @@ Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
 253    end
 254    [V, success, iterations, detJ] = newtonpf_fcn(Ybus, Sbus, V0, ref, pv, pq, mpopt);
 ...
-
 390   mpc.et = toc(t0);
 391   mpc.success = success;
 392   mpc.iterations = its;
