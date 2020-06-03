@@ -53,3 +53,4 @@ Also in the command window a power range is displayed, where the limit mode for 
 1. The need to use matcont?
 2. Incorrect graphing results of the second Jacobian derivative (probably, the minimum and maximum values along the y axis should be set)
 3. Writing an article in LaTex?
+4. Extension city registration in Germany
