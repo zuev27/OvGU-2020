@@ -48,3 +48,7 @@ from the MATLAB prompt. Here, the user can select a number of parameters:
 After a successful calculation the graphs of the Jacobian |J| and its second derivative |J''| are shown. 
 
 Also in the command window a power range is displayed, where the limit mode for static aperiodic stability is located.
+
+## Questions 05.06.2020
+1. The need to use matcont
+2. Incorrect graphing results of the second Jacobian derivative (probably, the minimum and maximum values along the y axis should be set)
