@@ -51,9 +51,7 @@ Also in the command window a power range is displayed, where the limit mode for 
 
 ## Questions 05.06.2020
 1. The need to use matcont?
-
 2.1. Filling out calculation results in columns rather than rows.
-
 2.2. Incorrect graphing results of the second Jacobian derivative (probably, the minimum and maximum values along the y axis should be set)
 
 3. Writing an article in LaTex?
