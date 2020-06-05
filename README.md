@@ -35,10 +35,15 @@ Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
 393   mpc.detJ = detJ;
 ```
 
-## Test simulations using IEEE14
-To run the simulation for the [IEEE14](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/) test grid run 
+## Test simulations using IEEE14 and real scheme of South of Russia
+User can select one of two schemes to run the simulation.
+1. [IEEE14](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/) test grid run
 ```
 IEEE14.m
+```
+2. Scheme of South of Russia
+```
+Russia.m
 ```
 from the MATLAB prompt. Here, the user can select a number of parameters:
  - load node to investigate (the user can select any node that is displayed in the command window of MATLAB),
