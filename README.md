@@ -3,7 +3,7 @@ The aim of this project is the automatic load adding in the node and search of e
 
 ## Installation
  - install MATPOWER 7.0 https://matpower.org/download/
- - include the adopted versions of runpf.m and newtonpf.m in the current path
+ - include the adopted versions of newtonpf.m and runpf.m in the current path
 
 ## Changes to MATPOWER library files
 Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
