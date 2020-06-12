@@ -2,8 +2,15 @@
 The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of static stability.
 
 ## Installation
- - install MATPOWER 7.0 https://matpower.org/download/
- - include the adopted versions of newtonpf.m and runpf.m in the current path
+ - install [MATPOWER 7.0](https://matpower.org/download/)
+ - include the adopted versions of following files in the current path:
+
+```
+1. newtonpf.m
+```
+```
+2. runpf.m
+```
 
 ## Changes to MATPOWER library files
 Based on the MATPOWER 7.0 the files runpf.m and newtonpf.m are adopted.
