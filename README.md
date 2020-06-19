@@ -11,7 +11,7 @@ The aim of this project is the automatic load adding in the node and search of e
 ```
 
 ## Changes to MATPOWER library files
-Based on the MATPOWER 7.0 the files newtonpf.m and runpf.mare adopted.
+Based on the [MATPOWER 7.0](https://matpower.org/download/) the files newtonpf.m and runpf.m are adopted.
  
 1. newtonpf.m: added the calculation of Jacobian of power system.
 
