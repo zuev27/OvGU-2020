@@ -52,8 +52,8 @@ Russia.m
 ```
 from the MATLAB prompt. Here, the user can select a number of parameters:
  - load node to investigate (the user can select any node that is displayed in the command window of MATLAB),
- - accuracy of calculation (default the value 0.001 for greater accuracy of calculation),
- - power increment (default 5 MW also for greater accuracy of calculation).
+ - accuracy of calculation (default the value 0.001 for better results of calculation),
+ - increment of active power (default 5 MW also for better results of calculation).
 
 After a successful calculation the graphs of the Jacobian |J| and its second derivative J'' are shown and also graph of the voltage in the analysed node. 
 
