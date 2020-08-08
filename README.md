@@ -55,6 +55,6 @@ from the MATLAB prompt. Here, the user can select a number of parameters:
  - accuracy of calculation (default the value 0.001 for better results of calculation),
  - increment of active power (default 1 MW also for better results of calculation).
 
-After a successful calculation the graphs of the Jacobian |J| and its second-order derivative J'' are shown and also graph of the voltage in the analyzed node and error function graph are plotted. 
+After a successful calculation the graphs of the Jacobian J and its second-order derivative J'' are shown and also graph of the voltage in the analyzed node and error function graph are plotted. 
 
 Also in the command window a power range is displayed where the extreme regime for steady-state aperiodic stability is located.
