@@ -42,7 +42,7 @@ Based on the MATPOWER 7.0 files newtonpf.m and runpf.m are adopted.
 
 ## Test simulations using IEEE 14 Bus System and real scheme of South of Russia
 User can select one of two schemes to run the simulation:
-1. [IEEE 14 Bus System](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/)
+1. [IEEE 14-Bus System](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/ieee-14-bus-system/)
 ```
 IEEE14.m
 ```
