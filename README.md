@@ -2,7 +2,7 @@
 The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of steady-state stability.
 
 ## Installation
- - install [MATPOWER 7.0](https://matpower.org/download/)
+ - install [MATPOWER 7.1](https://matpower.org/download/)
  - include the adopted versions of following files in the current path:
 
 ```
@@ -11,7 +11,7 @@ The aim of this project is the automatic load adding in the node and search of e
 ```
 
 ## Changes to MATPOWER library files
-Based on the MATPOWER 7.0 files newtonpf.m and runpf.m are adopted.
+Based on the MATPOWER 7.1 files newtonpf.m and runpf.m are adopted.
  
 1. newtonpf.m: added the calculation of Jacobian of power system.
 
