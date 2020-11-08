@@ -26,18 +26,17 @@ Based on the MATPOWER 7.1 files newtonpf.m and runpf.m are adopted.
 2. runpf.m: added the value of Jacobian of power system in calculation of power flow.
 
 ```
-254    if mpopt.pf.v_cartesian                  %% power, cartesian
-255          newtonpf_fcn = @newtonpf_S_cart;
-256       else                                  %% default - power, polar
-257          newtonpf_fcn = @newtonpf;
-258       end
-259    end
-260    [V, success, iterations, detJ] = newtonpf_fcn(Ybus, Sbus, V0, ref, pv, pq, mpopt);
+274                        end
+275                    end
+276                    [V, success, iterations, detJ] = newtonpf_fcn(Ybus, Sbus, V0, ref, pv, pq, mpopt);
+277                case {'FDXB', 'FDBX'}
+278                    [Bp, Bpp] = makeB(baseMVA, bus, branch, alg);
+279                    [V, success, iterations] = fdpf(Ybus, Sbus, V0, Bp, Bpp, ref, pv, pq, mpopt);
 ...
-390   mpc.et = toc(t0);
-391   mpc.success = success;
-392   mpc.iterations = its;
-393   mpc.detJ = detJ;
+392   mpc.et = toc(t0);
+393   mpc.success = success;
+394   mpc.iterations = its;
+395   mpc.detJ = detJ;
 ```
 
 ## Test simulations using IEEE 14-Bus System and real scheme of South of Russia
