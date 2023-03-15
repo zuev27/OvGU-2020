@@ -1,5 +1,5 @@
 # Extreme regime detection
-The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of steady-state stability.
+The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of steady-state stability
 
 ## Installation
  - install [MATPOWER 7.1](https://matpower.org/download/)
