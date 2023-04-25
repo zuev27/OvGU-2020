@@ -1,4 +1,4 @@
-%   CASE South of Russia
+%%   CASE South of Russia
 
 %   MATPOWER
 
@@ -235,7 +235,7 @@ disp(' ');
 fl1 = true;
 while fl1 == true
   N_load = input('Choose number of load node [1, 3-9, 11-14, 17-19, 22, 27, 29-30, 32-33, 38, 42-45]: ');
-  if (N_load < 1) || (N_load == 10) || (N_load == 15) || (N_load == 16) || (N_load == 20) || (N_load == 21) || (N_load == 23) || (N_load == 24) || (N_load == 25) || (N_load == 26) || (N_load == 28) || (N_load == 31) || (N_load == 34) || (N_load == 35) || (N_load == 36) || (N_load == 37) || (N_load == 39) || (N_load == 40) || (N_load == 41) || (N_load > 46)
+  if (N_load < 1) || (N_load == 2) || (N_load == 10) || (N_load == 15) || (N_load == 16) || (N_load == 20) || (N_load == 21) || (N_load == 23) || (N_load == 24) || (N_load == 25) || (N_load == 26) || (N_load == 28) || (N_load == 31) || (N_load == 34) || (N_load == 35) || (N_load == 36) || (N_load == 37) || (N_load == 39) || (N_load == 40) || (N_load == 41) || (N_load > 46)
       disp('The number of load node is set incorrectly! It must lie in the range')
       disp('[1, 3-9, 11-14, 17-19, 22, 27, 29-30, 32-33, 38, 42-45].')
       disp(' ');
