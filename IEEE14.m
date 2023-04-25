@@ -101,9 +101,9 @@ end;
         
 fl2 = true;
 while fl2 == true
-  eps = input('Calculation accuracy [0.001, 0.01, 0.1, 1]: ');
-  if (eps ~= 0.001) && (eps ~= 0.01) && (eps ~= 0.1) && (eps ~= 1)
-      disp('The calculation accuracy is set incorrectly! Choose one of the following values: [0.001, 0.01, 0.1, 1].');
+  eps = input('Calculation accuracy [0.0001, 0.001, 0.01, 0.1, 1]: ');
+  if (eps ~= 0.0001) && (eps ~= 0.001) && (eps ~= 0.01) && (eps ~= 0.1) && (eps ~= 1)
+      disp('The calculation accuracy is set incorrectly! Choose one of the following values: [0.0001, 0.001, 0.01, 0.1, 1].');
       disp(' ');
   else fl2 = false;
   end;
@@ -112,7 +112,7 @@ end;
 fl3 = true;
 while fl3 == true
 dP = input('Increment of active power P, MW [1; 20]: ');
-  if (dP < 0) || (dP > 20)
+  if (dP < 1) || (dP > 20)
       disp('The increment is set incorrectly! It must lie in the range [1; 20] MW.');
       disp(' ');
   else fl3 = false;
