@@ -1,4 +1,4 @@
-%%   CASE South of Russia
+%%  CASE South of Russia
 
 %   MATPOWER
 
