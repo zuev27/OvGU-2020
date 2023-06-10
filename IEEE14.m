@@ -1,4 +1,6 @@
-%%  CASE14    Power flow data for IEEE 14 bus test case.
+%%  CASE14
+%   Power flow data for IEEE 14 bus test case.
+%
 %   This data was converted from IEEE Common Data Format
 %   (ieee14cdf.txt) on 15-Oct-2014 by cdf2matp, rev. 2393
 %   See end of file for warnings generated during conversion.

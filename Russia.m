@@ -1,4 +1,5 @@
 %%  CASE South of Russia
+%   Power flow data for real scheme of south of Russia.
 
 %   MATPOWER
 
@@ -155,7 +156,7 @@ mpc.branch = [
     15  17   0.8     58.5      0        0	0	0	1	0	1	-360	360;     
 ];
 
-%% bus names
+%% Bus names
 mpc.bus_name = {
 	'Node 1     Kubanskaya';
     'Node 2     Sevastopolskaya TES 330 kV';
