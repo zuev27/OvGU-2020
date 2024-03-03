@@ -1,5 +1,5 @@
 # Extreme regime detection
-The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of steady-state stability. Author the DAAD organization for funding and the opportunity to carry out this research work on the [Institute for Automation Engineering (IFAT)](https://www.ifat.ovgu.de/en/) at the Otto-von-Guericke University in Magdeburg.
+The aim of this project is the automatic load adding in the node and search of extreme regimes, i.e. loss of steady-state stability. Author the DAAD organization for funding and the opportunity to carry out this research work on the [Institute for Automation Engineering (IFAT)](https://www.ifat.ovgu.de/en/) at the [Otto-von-Guericke University in Magdeburg](https://www.ovgu.de/en/).
 
 ## Installation
  - install [MATPOWER 7.1](https://matpower.org/download/)
